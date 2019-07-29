@@ -1,0 +1,15 @@
+@import "../layout/_variables.scss";
+
+.header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 70px;
+	background-color: $white-color;
+	z-index: 1001;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}

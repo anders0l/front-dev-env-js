@@ -1,0 +1,15 @@
+.app {
+	&__preloader {
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		min-height: 150px;
+		top: 50%;
+		left: 50%;
+		margin-top: -75px;
+		margin-left: -75px;
+		background-color: transparent;
+		pointer-events: none;
+		z-index: 1000;
+	}
+}

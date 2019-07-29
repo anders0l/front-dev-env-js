@@ -1,0 +1,29 @@
+@import "../layout/_variables.scss";
+
+.error-block {
+	width: 100%;
+	height: 100%;
+	&__title {
+		margin-bottom: 30px;
+		font-size: 200px;
+		color: $grey-color;
+		text-align: center;
+	}
+	&__subtitle {
+		padding-top: 30px;
+		margin-bottom: 30px;
+		font-size: 30px;
+		color: $grey-color;
+		text-align: center;
+	}
+	&__text {
+		max-width: 960px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		font-size: 20px;
+		text-align: center;
+	}
+	&__button {
+		text-align: center;
+	}
+}

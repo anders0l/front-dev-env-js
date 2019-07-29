@@ -1,0 +1,30 @@
+@import "./_variables.scss";
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: $text-color;
+	position: relative;
+	min-height: 100vh;
+	min-width: 320px;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+	margin-top: -1px;
+}
+
+label, input[type=button] {
+	cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-position: outside;
+	overflow: hidden;
+}

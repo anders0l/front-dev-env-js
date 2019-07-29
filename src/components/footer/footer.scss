@@ -1,0 +1,10 @@
+@import "../layout/_variables.scss";
+
+.footer {
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
